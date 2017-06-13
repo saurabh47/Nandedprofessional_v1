@@ -1,5 +1,7 @@
 package com.webdestro.www.nandedprofessional;
 
+/*Saurabh Gangamwar*/
+
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -172,12 +174,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
-
+/*
+To Display banner ADS
         mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-
+*/
 
         images = new ArrayList<>();
         names = new ArrayList<>();
