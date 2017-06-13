@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/subRelative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DADADA"
+    android:padding="10dp"
+    tools:context="com.webdestro.www.nandedprofessional.SubCategory">
+
+    <RelativeLayout
+        android:id="@+id/cotainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/subcatimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@mipmap/ic_launcher_round"/>
+
+        <TextView
+            android:id="@+id/subtextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sub Category"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/subgridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cotainer"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:numColumns="2"
+        android:padding="15dp"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/subadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+
+</RelativeLayout>
