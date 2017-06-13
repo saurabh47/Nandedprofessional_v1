@@ -40,7 +40,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    //Web api url  .
+    //Web api url  ...
    public static final String DATA_URL = "http://webdestro.com/newapi/mcategory";
 
   //  public static final String DATA_URL = "http://webdestro.com/newapi/scategory";
